@@ -5,20 +5,16 @@
       "type": "motoko"
     },
     "www": {
-      "dependencies": [
-        "hello"
-      ],
+      "dependencies": ["hello"],
       "frontend": {
         "entrypoint": "dist/www/index.html"
       },
-      "source": [
-        "dist/www"
-      ],
+      "source": ["dist/www"],
       "type": "assets"
     }
   },
-  
-  "dfx": "0.8.0",
+
+  "dfx": "0.9.3",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
